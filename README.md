@@ -21,3 +21,9 @@ It is also desirable to reference other blog posts, like the next blog post, or 
 I like the idea of [Mithril.js](http://lhorie.github.io/mithril/) which a small library which is similar to React.js, just faster and smaller. The speed/effeciency is important if we are keeping everything on the front end.
 
 Although the days of the back end aren't over, the back end isn't really needed for as many things today as it used to be. It is time we separate out the concerns of the back end from the concerns of the front end. It is exciting to be programming while this is happening.
+
+This project is similar to [Rob Rohan's RiZhi (or journal) project](https://github.com/robrohan/rizhi), except I will be putting the AWS integration and will be using Mithril.js.
+
+Problems with this approach:
+
+- JavaScript required.
