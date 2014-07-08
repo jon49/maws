@@ -8,8 +8,8 @@ Example HTML file:
 
 ```javascript
 <!DOCTYPE html>
-<link href="/all.css" rel="stylesheet">
-<script src="/all.js"></script>
+<link href="/css/all.css" rel="stylesheet">
+<script src="/js/all.js"></script>
 ```
 
 Although the days of the back end aren't over, the back end isn't really needed for as many things today as it used to be. It is time we separate out the concerns of the back end from the concerns of the front end. It is exciting to be programming while this is happening.
