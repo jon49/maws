@@ -12,6 +12,8 @@ var links = function(items){
             ])     
 }
 
+//TODO: add header info
+
 //header menu
 var menu = function(items){
    return   m('#menu', [ 
@@ -55,5 +57,5 @@ var mainContent = function(mithHeader, mithContent, mithMenuFooter, mithFooter){
 //put all views together
 var main = function(ctrl){
    var config = ctrl.config
-   return [menu(config.menuItems), mainContent(header(config.header), content(config.content), footerMenu(config.footerItems), footer(config.footer))]
+   return m('body', [menu(config.menuItems), mainContent(header(config.header), content(config.content), footerMenu(config.footerItems), footer(config.footer))])
 }
