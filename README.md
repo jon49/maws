@@ -14,7 +14,9 @@ Example HTML file:
 <script src="/all.js"></script>
 ```
 
-If we decided that we don't like our blog url to look like `https://my-blog.com#2014-07-07-my_first_post` and would rather that it look like a "normal" link like `https://my-blog.com/2014/07/07/my_first_post` then it is possible to create all the files with the minimal file text like above buried in folders, of course, then we would still have to regenerate all the files, or possibly delete files and folders if you decided you didn't like that post -- the complexity definitely increases.
+~~If we decided that we don't like our blog url to look like `https://my-blog.com#2014-07-07-my_first_post` and would rather that it look like a "normal" link like `https://my-blog.com/2014/07/07/my_first_post` then it is possible to create all the files with the minimal file text like above buried in folders, of course, then we would still have to regenerate all the files, or possibly delete files and folders if you decided you didn't like that post -- the complexity definitely increases.~~
+
+Apparently with S3 AWS you can set your 404 file to the main index.html file. Consequently the "normal" link style can be maintained.
 
 It is also desirable to reference other blog posts, like the next blog post, or the previous post. These posts could be predownloaded and then you can grab the metadata (yaml data at top of markdown file) add them to the bottom of your post. When the client clicks on either of the posts (next or previous) it can be immediately shown and then another markdown file can be downloaded to add to the next/previous. Since it is just a simple markdown file with no pictures or graphics or extra markdown it makes the files extremely small and the client wouldn't even notice.
 
